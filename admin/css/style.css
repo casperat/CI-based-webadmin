@@ -1,0 +1,190 @@
+body {
+    background: #ebebeb url('../img/page_bg.png') repeat-x top;
+    font-family: Arial, helvetica, geneva, sans-serif;
+    /*font-size: 12px;*/
+}
+
+.mainwrap {
+    margin: 10px 20px;
+    position: relative;
+    min-width: 720px;
+}
+
+.popup_wrap { padding: 20px; }
+
+.logged_user {
+    text-align: right;
+    margin-top: 5px;
+}
+.logged_user a, .logged_user span {
+    color: #005489;
+    padding: 3px 5px;
+    text-decoration: 0px 1px 0px #dcecf6;
+    font-size: 13px;
+}
+
+.content {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.main-nav {
+    list-style-type: none;
+    margin: 0px;
+}
+
+.main-nav > li > .btn-group {
+    text-align: left;
+    margin-bottom: 10px;
+}
+.main-nav > li > .btn-group a.btn { min-width: 110px; text-align: left; }
+
+.col-right h1 {
+    font-size: 24px;
+    margin-top: 5px;
+    line-height: 24px;
+}
+
+.navbar span.divider-vertical {
+    float: left;
+    display: block;
+}
+
+.collection-list {
+    margin-top: 20px;
+    width: auto;
+    font-size: 11px;
+}
+.collection-list th, .collection-list td { line-height: 15px; max-width: 350px; }
+.collection-list td.actions { width: 48px; }
+.collection-list td.actions i { display: block; float: left; }
+.collection-list td.actions span { display: block; padding: 1px 0px 0px 4px; float: left; }
+
+.collection-list th, .collection-list tbody tr:hover th {
+    background: #D2E9F9;
+    font-size: 13px;
+}
+
+.collection-list th.actions, .collection-list tr:hover th.actions {
+    background: #FFADAD;
+    text-align: center;
+}
+.collection-list td.actions, .collection-list tr:hover td.actions {
+    background: #FFEEE5;
+}
+
+.collection-list td.actions a, .collection-list tr:hover td.actions a {
+    text-decoration: none;
+}
+
+.pages {
+    margin: 30px 0px;
+}
+.pages a, .pages span {
+    margin-right: 5px;
+    padding: 2px 8px;
+    color: #555;
+    display: block;
+    float: left;
+    font-size: 12px;
+    text-decoration: none;
+}
+.pages a {
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#dfdfdf));
+    background: -moz-linear-gradient(top, #ffffff, #dfdfdf);
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-weight: bold;
+    text-shadow: 0px 1px 0px #fff;
+}
+.pages a:hover {
+    border: 1px solid #aaa;
+    color: #000;
+    text-decoration: none;
+}
+.pages a:active {
+    background: -webkit-gradient(linear, left top, left bottom, from(#dfdfdf), to(#ffffff));
+    background: -moz-linear-gradient(top, #dfdfdf, #ffffff);
+}
+.pages a.selected {
+    background: -webkit-gradient(linear, left top, left bottom, from(#858585), to(#676767));
+    background: -moz-linear-gradient(top, #858585, #676767);
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    color: #fff;
+    font-weight: bold;
+    margin-right: 5px;
+    text-shadow: 0px -1px 0px #000;
+}
+.pages span.limits { padding: 0px; }
+.pages a.prev, .pages a.next, .pages span.limits a {
+    font-size: 15px;
+    padding: 1px 7px 3px 7px;
+}
+
+.col-right .nav-tabs { margin-bottom: 0px; }
+.col-right .nav-tabs li.active a { background: #f5f5f5; }
+
+.col-right form { margin-bottom: 0px; }
+
+.add-content-holder { padding: 20px; background: #f5f5f5; border: 1px solid #ddd; border-top: none; }
+.add-content-holder .control-group { margin-bottom: 10px; }
+.add-content-holder .control-label { text-align: left; font-weight: bold; font-size: 12px; }
+
+.add-content-holder input,
+.add-content-holder textarea,
+.add-content-holder .uneditable-input { font-size: 12px; width: 400px; }
+.add-content-holder select { font-size: 12px; width: 414px; }
+.add-content-holder textarea { height: 75px; }
+.add-content-holder input[type="file"], .add-content-holder input[type="image"],
+.add-content-holder input[type="submit"], .add-content-holder input[type="reset"],
+.add-content-holder input[type="button"], .add-content-holder input[type="radio"],
+.add-content-holder input[type="checkbox"] { width: auto; }
+.add-content-holder label { font-size: 12px; }
+.add-content-holder input[type="radio"], .add-content-holder input[type="checkbox"] { margin-top: 3px; }
+.add-content-holder select option { padding: 1px 3px; }
+
+.file-upload { width: 414px; }
+.file-upload .fu-left { width: 79px; text-align: center; float: left; }
+.file-upload .fu-left .btn-mini { width: 65px; }
+.file-upload .fu-left img { width: 75px; padding: 1px; border: 1px solid #ccc; margin-bottom: 3px; }
+.file-upload .fu-right { float: right; width: 320px; position: relative; overflow: hidden; height: 80px; }
+.file-upload .fu-right input { width: 305px; margin-top: 49px; }
+.file-upload .fu-right .progress { position: absolute; top: 0px; left: 0px; width: 100%; }
+
+.upload-multiple .header { margin-bottom: 20px; }
+
+.tab-item-add { margin: 10px 0px !important; border: 1px solid #ccc; padding: 10px;
+    position: relative; padding-right: 20px; }
+.tab-item-add .control-group .control-label { width: 80px; }
+.tab-item-add .control-group .controls { margin-left: 100px; }
+
+.tab-item-delete { position: absolute; top: 5px; right: 10px; }
+
+.input-right-links { display: inline-block; margin-left: 10px; }
+
+.hint { font-style: italic; font-size: 12px; line-height: 16px; padding-left: 15px; display: inline-block; }
+.hint i { float: left; margin-right: 3px; }
+
+.checkbox.inline { white-space: nowrap; }
+
+.config-tables { width: auto; }
+.config-tables td { min-width: 100px; }
+.config-tables th { font-size: 12px; }
+.config-tables input[type=text] { width: auto; height: 14px; line-height: 14px;
+    font-size: 11px; margin-bottom: 0px; }
+.config-tables select { width: auto; height: 24px; line-height: 14px; font-size: 11px;
+    padding: 3px 6px; margin-bottom: 0px; }
+.config-tables label { font-size: 11px; display: inline-block; line-height: 14px; margin-right: 7px; }
+.config-tables input[type="radio"], .config-tables input[type="checkbox"] { margin-top: 0px; }
+.config-tables .rpp { min-width: 0; }
+.config-tables .rpp input { width: 50px; }
+
+.config-tables .btn-small { padding: 1px 10px; }
+
+.config-tables .form-add-new { margin: 3px 0px 0px 15px; }
+.config-tables .form-add-new label { line-height: 22px; }
+.config-tables .form-add-new .input-append { margin-bottom: 0px; }
